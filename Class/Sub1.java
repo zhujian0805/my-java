@@ -10,7 +10,8 @@
     }
     void FriendlyTest(){
       System.out.println("默认方法只能包内访问");
-    }      private void PrivateTest(){
+    }      
+    private void PrivateTest(){
     System.out.println("默认类独享的private方法");
   }
 }
